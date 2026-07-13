@@ -282,14 +282,6 @@ input {
     opacity 180ms ease;
 }
 
-/* WebKit 301648: padded temporal inputs overflow at width: 100% on iOS 26. */
-input[type="date"],
-input[type="time"] {
-  width: -webkit-fill-available;
-  min-width: 0;
-  max-width: 100%;
-}
-
 .competition-picker {
   position: relative;
 }
@@ -465,6 +457,73 @@ input:disabled {
   background: rgb(231 232 231 / 0.58);
   color: #8b9298;
   cursor: not-allowed;
+}
+
+/* Keep iOS native pickers inside their padded visual controls (WebKit 301648). */
+.temporal-control {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  min-height: 3.35rem;
+  align-items: center;
+  padding: 0.78rem 0.92rem;
+  overflow: hidden;
+  border: 1px solid rgb(67 75 83 / 0.2);
+  border-radius: 0.9rem;
+  background: rgb(255 255 255 / 0.78);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.98),
+    0 5px 14px rgb(20 25 22 / 0.05);
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease,
+    box-shadow 180ms ease,
+    opacity 180ms ease;
+}
+
+.temporal-control > input {
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  -webkit-appearance: auto;
+  appearance: auto;
+}
+
+.temporal-control > input:hover:not(:disabled),
+.temporal-control > input:focus,
+.temporal-control > input:disabled {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.field:not(.is-disabled) .temporal-control:hover {
+  border-color: rgb(217 36 36 / 0.38);
+  background: rgb(255 255 255 / 0.9);
+}
+
+.temporal-control:focus-within {
+  border-color: var(--red);
+  outline: 3px solid rgb(217 36 36 / 0.34);
+  outline-offset: 3px;
+  background: rgb(255 255 255 / 0.96);
+  box-shadow:
+    inset 0 1px 0 white,
+    0 0 0 4px rgb(217 36 36 / 0.08);
+}
+
+.field.is-disabled .temporal-control {
+  border-color: rgb(67 75 83 / 0.1);
+  background: rgb(231 232 231 / 0.58);
 }
 
 .field.is-disabled .field-label {
@@ -1035,6 +1094,7 @@ button:disabled {
   }
 
   input,
+  .temporal-control,
   .competition-trigger,
   .competition-options,
   .match-card {
@@ -1051,6 +1111,7 @@ button:disabled {
   .match-card,
   .match-kickoff,
   input,
+  .temporal-control,
   button,
   .update-badge,
   .result-count {
