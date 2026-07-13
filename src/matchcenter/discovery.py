@@ -25,7 +25,7 @@ def discover_schedules(
             definition=definition,
         )
 
-    return _discover_cup_schedules(
+    return _discover_cup_schedule(
         html,
         definition=definition,
     )
@@ -47,7 +47,11 @@ def _discover_league_schedules(
         if not isinstance(href, str):
             continue
 
-        url = urljoin(definition.landing_url, href)
+        url = urljoin(
+            definition.landing_url,
+            href,
+        )
+
         query = parse_qs(urlparse(url).query)
 
         if query.get("a") != ["msp"]:
@@ -64,6 +68,7 @@ def _discover_league_schedules(
             section_name = None
         else:
             group_number = int(group_match.group("number"))
+
             schedule_key = f"{definition.key}-group-{group_number}"
             section_name = f"Gruppe {group_number}"
 
@@ -74,6 +79,7 @@ def _discover_league_schedules(
                 competition_name=definition.name,
                 section_name=section_name,
                 url=url,
+                kind=definition.kind,
             )
         )
 
@@ -93,14 +99,26 @@ def _discover_league_schedules(
     )
 
 
-def _discover_cup_schedules(
+def _discover_cup_schedule(
     html: str,
     *,
     definition: CompetitionDefinition,
 ) -> list[Schedule]:
-    raise MatchcenterDiscoveryError(
-        f"Cup discovery is not implemented for {definition.key}"
-    )
+    soup = BeautifulSoup(html, "html.parser")
+
+    if soup.select_one('a.list-group-item[href*="tg="]') is None:
+        raise MatchcenterDiscoveryError(f"No cup games found for {definition.key}")
+
+    return [
+        Schedule(
+            key=definition.key,
+            source_key=definition.source_key,
+            competition_name=definition.name,
+            section_name=None,
+            url=definition.landing_url,
+            kind=definition.kind,
+        )
+    ]
 
 
 def _context_text(anchor: Tag) -> str:
@@ -111,10 +129,14 @@ def _context_text(anchor: Tag) -> str:
         if not isinstance(parent, Tag):
             break
 
-        values.append(_clean_text(parent))
+        text = _clean_text(parent)
+
+        if text:
+            values.append(text)
+
         parent = parent.parent
 
-    return " ".join(value for value in values if value)
+    return " ".join(values)
 
 
 def _clean_text(element: Tag) -> str:

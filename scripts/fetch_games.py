@@ -4,7 +4,7 @@ from pathlib import Path
 
 import matchcenter as mc
 
-OUTPUT_PATH = Path("data/games.json")
+OUTPUT_PATH = Path(__file__).resolve().parents[1] / "data" / "games.json"
 
 
 competitions = [
@@ -26,6 +26,15 @@ competitions = [
             "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&s=2027&ln=12010"
         ),
     ),
+    mc.CompetitionDefinition(
+        key="classic-cup-qualification",
+        source_key="erste-liga",
+        name="Cup-Qualifikation 1. Liga Classic",
+        kind="cup",
+        landing_url=(
+            "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&s=2027&cp=5222"
+        ),
+    ),
 ]
 
 
@@ -33,23 +42,26 @@ def main() -> None:
     games: list[mc.Game] = []
 
     with mc.MatchcenterClient() as client:
-        for competition in competitions:
-            print(f"Discovering {competition.name}...")
+        for definition in competitions:
+            print(f"Discovering {definition.name}...")
 
             landing_html = client.fetch_html(
-                competition.landing_url,
-                wait_for="a[href]",
+                definition.landing_url,
+                wait_for=".list-group-item",
             )
 
             schedules = mc.discover_schedules(
                 landing_html,
-                definition=competition,
+                definition=definition,
             )
 
             for schedule in schedules:
                 print(f"Fetching {schedule.key}...")
 
-                schedule_html = client.fetch_schedule(schedule)
+                if schedule.url == definition.landing_url:
+                    schedule_html = landing_html
+                else:
+                    schedule_html = client.fetch_schedule(schedule)
 
                 parsed_games = mc.parse_schedule(
                     schedule_html,
@@ -64,7 +76,7 @@ def main() -> None:
         OUTPUT_PATH,
     )
 
-    print(f"Wrote {len(exported_games)} games to {OUTPUT_PATH.resolve()}")
+    print(f"Wrote {len(exported_games)} games to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

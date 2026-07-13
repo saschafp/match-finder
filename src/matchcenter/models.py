@@ -38,6 +38,7 @@ class Schedule:
     competition_name: str
     section_name: str | None
     url: str
+    kind: CompetitionKind
 
 
 @dataclass(frozen=True, slots=True)
