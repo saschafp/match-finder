@@ -38,6 +38,24 @@ competitions = [
             "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&s=2027&cp=5222"
         ),
     ),
+    mc.CompetitionDefinition(
+        key="axa-womens-super-league",
+        source_key="sfv",
+        name="AXA Women's Super League",
+        kind="league",
+        landing_url=(
+            "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&ln=21011"
+        ),
+    ),
+    mc.CompetitionDefinition(
+        key="axa-womens-cup",
+        source_key="sfv",
+        name="AXA Women's Cup",
+        kind="cup",
+        landing_url=(
+            "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216"
+        ),
+    ),
 ]
 
 

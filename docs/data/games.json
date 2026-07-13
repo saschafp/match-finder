@@ -108,6 +108,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4314606"
   },
   {
+    "id": "4340165",
+    "matchNumber": "127986",
+    "date": "2026-08-07",
+    "time": "19:00",
+    "homeTeam": "Yverdon Sport Women",
+    "awayTeam": "FC Zürich",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340165"
+  },
+  {
     "id": "4315424",
     "matchNumber": "105307",
     "date": "2026-08-08",
@@ -300,6 +312,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315666"
   },
   {
+    "id": "4340167",
+    "matchNumber": "127988",
+    "date": "2026-08-08",
+    "time": "17:00",
+    "homeTeam": "FC Aarau Frauen",
+    "awayTeam": "GC Frauenfussball",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340167"
+  },
+  {
     "id": "4314615",
     "matchNumber": "104510",
     "date": "2026-08-08",
@@ -408,6 +432,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315904"
   },
   {
+    "id": "4340166",
+    "matchNumber": "127987",
+    "date": "2026-08-08",
+    "time": "18:00",
+    "homeTeam": "FC Rapperswil-Jona",
+    "awayTeam": "FC St.Gallen 1879",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340166"
+  },
+  {
     "id": "4315903",
     "matchNumber": "105786",
     "date": "2026-08-08",
@@ -456,6 +492,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315663"
   },
   {
+    "id": "4340164",
+    "matchNumber": "127985",
+    "date": "2026-08-08",
+    "time": null,
+    "homeTeam": "FC Luzern",
+    "awayTeam": "FC Basel 1893",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340164"
+  },
+  {
     "id": "4315427",
     "matchNumber": "105310",
     "date": "2026-08-09",
@@ -502,6 +550,18 @@
     "competitionName": "Hoval Promotion League",
     "sectionName": null,
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4314613"
+  },
+  {
+    "id": "4340171",
+    "matchNumber": "127992",
+    "date": "2026-08-14",
+    "time": "19:00",
+    "homeTeam": "FC Basel 1893",
+    "awayTeam": "BSC YB Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340171"
   },
   {
     "id": "4315914",
@@ -648,6 +708,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315912"
   },
   {
+    "id": "4340170",
+    "matchNumber": "127991",
+    "date": "2026-08-15",
+    "time": "17:00",
+    "homeTeam": "Servette FC Chênois Féminin",
+    "awayTeam": "FC Aarau Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340170"
+  },
+  {
     "id": "4315433",
     "matchNumber": "105316",
     "date": "2026-08-15",
@@ -766,6 +838,42 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315913"
+  },
+  {
+    "id": "4340169",
+    "matchNumber": "127990",
+    "date": "2026-08-15",
+    "time": null,
+    "homeTeam": "FC St.Gallen 1879",
+    "awayTeam": "Yverdon Sport Women",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340169"
+  },
+  {
+    "id": "4340173",
+    "matchNumber": "127994",
+    "date": "2026-08-15",
+    "time": null,
+    "homeTeam": "FC Zürich",
+    "awayTeam": "FC Luzern",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340173"
+  },
+  {
+    "id": "4340172",
+    "matchNumber": "127993",
+    "date": "2026-08-15",
+    "time": null,
+    "homeTeam": "GC Frauenfussball",
+    "awayTeam": "FC Rapperswil-Jona",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340172"
   },
   {
     "id": "4314622",
@@ -898,6 +1006,18 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315918"
+  },
+  {
+    "id": "4340168",
+    "matchNumber": "127989",
+    "date": "2026-08-21",
+    "time": "19:00",
+    "homeTeam": "BSC YB Frauen",
+    "awayTeam": "Servette FC Chênois Féminin",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340168"
   },
   {
     "id": "4314629",
@@ -1092,6 +1212,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315440"
   },
   {
+    "id": "4316430",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "17:00",
+    "homeTeam": "AF LUC-Dorigny (3.L(F))",
+    "awayTeam": "FC Biel-Bienne Women (1.L (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316430"
+  },
+  {
     "id": "4314632",
     "matchNumber": "104527",
     "date": "2026-08-22",
@@ -1126,6 +1258,18 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 1",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315441"
+  },
+  {
+    "id": "4316448",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "17:30",
+    "homeTeam": "SC Balerna (1.L (F))",
+    "awayTeam": "FC Küssnacht a/R (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316448"
   },
   {
     "id": "4315443",
@@ -1200,6 +1344,150 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315921"
   },
   {
+    "id": "4316446",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "18:00",
+    "homeTeam": "FC Baar 1 (1.L (F))",
+    "awayTeam": "FC Thun (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316446"
+  },
+  {
+    "id": "4316444",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "18:00",
+    "homeTeam": "FC Luzern Frauen (1.L (F))",
+    "awayTeam": "FC Ostermundigen (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316444"
+  },
+  {
+    "id": "4316454",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "18:00",
+    "homeTeam": "FC Uster 1 (2.L(F))",
+    "awayTeam": "FC Zürich (AWSL)",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316454"
+  },
+  {
+    "id": "4316453",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "18:00",
+    "homeTeam": "FC Wiedikon ZH 1 (2.L(F))",
+    "awayTeam": "FC St.Gallen 1879 (AWSL)",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316453"
+  },
+  {
+    "id": "4316452",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "18:15",
+    "homeTeam": "FC Uzwil 1 (2.L(F))",
+    "awayTeam": "FC Wil 1900 1 (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316452"
+  },
+  {
+    "id": "4316451",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "18:30",
+    "homeTeam": "FC Staad 1 (1.L (F))",
+    "awayTeam": "FC Schlieren (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316451"
+  },
+  {
+    "id": "4316449",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "19:00",
+    "homeTeam": "FC Widnau 1 (2.L(F))",
+    "awayTeam": "FC Eschenbach 1 (1.L (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316449"
+  },
+  {
+    "id": "4316455",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "19:00",
+    "homeTeam": "FF Toggenburg 1 Grp. (1.L (F))",
+    "awayTeam": "GC Frauenfussball (AWSL)",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316455"
+  },
+  {
+    "id": "4316457",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "19:15",
+    "homeTeam": "FC Mels 1 (1.L (F))",
+    "awayTeam": "FC Rapperswil-Jona (AWSL)",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316457"
+  },
+  {
+    "id": "4316436",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "20:00",
+    "homeTeam": "FC Renens I (1.L (F))",
+    "awayTeam": "FFV Basel (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316436"
+  },
+  {
+    "id": "4316432",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "20:00",
+    "homeTeam": "FC Villars-sur-Glâne I (2.L(F))",
+    "awayTeam": "FC Lausanne-Sport (1.L (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316432"
+  },
+  {
+    "id": "4316437",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": "20:00",
+    "homeTeam": "SV Sissach (1.L (F))",
+    "awayTeam": "Etoile Carouge FC (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316437"
+  },
+  {
     "id": "4315920",
     "matchNumber": "105803",
     "date": "2026-08-22",
@@ -1210,6 +1498,150 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315920"
+  },
+  {
+    "id": "4316443",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "FC Alle (3.L(F))",
+    "awayTeam": "AS Gambarogno (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316443"
+  },
+  {
+    "id": "4316458",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "FC Bühler 1 Grp. (1.L (F))",
+    "awayTeam": "FC Winterthur (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316458"
+  },
+  {
+    "id": "4316459",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "FC Erlinsbach (1.L (F))",
+    "awayTeam": "FC Oerlikon/Polizei ZH 1 (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316459"
+  },
+  {
+    "id": "4316431",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "FC Gelterkinden (3.L(F))",
+    "awayTeam": "FC Courrendlin-Courroux (1.L (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316431"
+  },
+  {
+    "id": "4316441",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "FC Malcantone (4.L(F))",
+    "awayTeam": "Team Gürbetal (SV Kaufdorf) (4.L(F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316441"
+  },
+  {
+    "id": "4316447",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "FC Solothurn Frauen (1.L (F))",
+    "awayTeam": "FC Luzern (AWSL)",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316447"
+  },
+  {
+    "id": "4316433",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "FC Vétroz (2.L(F))",
+    "awayTeam": "CS Interstar 1 (2.L(F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316433"
+  },
+  {
+    "id": "4316445",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "Gäu Selection (2.L(F))",
+    "awayTeam": "FC Lugano (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316445"
+  },
+  {
+    "id": "4316439",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "Lausanne Nord I (1.L (F))",
+    "awayTeam": "Yverdon Sport Women (AWSL)",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316439"
+  },
+  {
+    "id": "4316435",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "SC Düdingen (1.L (F))",
+    "awayTeam": "FC Basel 1893 (AWSL)",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316435"
+  },
+  {
+    "id": "4316440",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "SC Holligen 94 (2.L(F))",
+    "awayTeam": "Frauenfussball Seetal (2.L(F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316440"
+  },
+  {
+    "id": "4316438",
+    "matchNumber": null,
+    "date": "2026-08-22",
+    "time": null,
+    "homeTeam": "Xamax Audax Féminin I (2.L(F)int.)",
+    "awayTeam": "FC Sion Féminin (NLB (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316438"
   },
   {
     "id": "4314628",
@@ -1260,6 +1692,30 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315924"
   },
   {
+    "id": "4316450",
+    "matchNumber": null,
+    "date": "2026-08-23",
+    "time": "14:00",
+    "homeTeam": "FC Blue Stars ZH Frauen 1968 (1.L (F))",
+    "awayTeam": "FC Wädenswil 1 (1.L (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316450"
+  },
+  {
+    "id": "4316442",
+    "matchNumber": null,
+    "date": "2026-08-23",
+    "time": "14:00",
+    "homeTeam": "FC Sempach I (1.L (F))",
+    "awayTeam": "SC Schwyz (1.L (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316442"
+  },
+  {
     "id": "4315679",
     "matchNumber": "105562",
     "date": "2026-08-23",
@@ -1270,6 +1726,18 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 2",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315679"
+  },
+  {
+    "id": "4316456",
+    "matchNumber": null,
+    "date": "2026-08-23",
+    "time": "14:30",
+    "homeTeam": "FC Wohlen (2.L(F))",
+    "awayTeam": "FC Aarau Frauen (AWSL)",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316456"
   },
   {
     "id": "4315445",
@@ -1294,6 +1762,30 @@
     "competitionName": "Hoval Promotion League",
     "sectionName": null,
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4314630"
+  },
+  {
+    "id": "4316434",
+    "matchNumber": null,
+    "date": "2026-08-23",
+    "time": "16:00",
+    "homeTeam": "US Terre Sainte I (1.L (F))",
+    "awayTeam": "FC Concordia Basel (1.L (F))",
+    "scheduleKey": "axa-womens-cup",
+    "competitionName": "AXA Women's Cup",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&s=2027&cp=5216&cr=0&tg=4316434"
+  },
+  {
+    "id": "4340174",
+    "matchNumber": "127995",
+    "date": "2026-08-28",
+    "time": "19:00",
+    "homeTeam": "FC Luzern",
+    "awayTeam": "FC St.Gallen 1879",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340174"
   },
   {
     "id": "4315691",
@@ -1404,6 +1896,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315932"
   },
   {
+    "id": "4340176",
+    "matchNumber": "127997",
+    "date": "2026-08-29",
+    "time": "16:00",
+    "homeTeam": "Servette FC Chênois Féminin",
+    "awayTeam": "FC Basel 1893",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340176"
+  },
+  {
     "id": "4314637",
     "matchNumber": "104532",
     "date": "2026-08-29",
@@ -1512,6 +2016,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315930"
   },
   {
+    "id": "4340178",
+    "matchNumber": "127999",
+    "date": "2026-08-29",
+    "time": "17:00",
+    "homeTeam": "FC Aarau Frauen",
+    "awayTeam": "FC Zürich",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340178"
+  },
+  {
     "id": "4315688",
     "matchNumber": "105571",
     "date": "2026-08-29",
@@ -1522,6 +2038,18 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 2",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315688"
+  },
+  {
+    "id": "4340177",
+    "matchNumber": "127998",
+    "date": "2026-08-29",
+    "time": "18:00",
+    "homeTeam": "FC Rapperswil-Jona",
+    "awayTeam": "BSC YB Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340177"
   },
   {
     "id": "4315452",
@@ -1582,6 +2110,18 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315928"
+  },
+  {
+    "id": "4340175",
+    "matchNumber": "127996",
+    "date": "2026-08-29",
+    "time": null,
+    "homeTeam": "Yverdon Sport Women",
+    "awayTeam": "GC Frauenfussball",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340175"
   },
   {
     "id": "4314638",
@@ -1690,6 +2230,18 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 1",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315451"
+  },
+  {
+    "id": "4340182",
+    "matchNumber": "128003",
+    "date": "2026-09-04",
+    "time": "19:00",
+    "homeTeam": "FC Basel 1893",
+    "awayTeam": "FC St.Gallen 1879",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340182"
   },
   {
     "id": "4315695",
@@ -1944,6 +2496,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315942"
   },
   {
+    "id": "4340180",
+    "matchNumber": "128001",
+    "date": "2026-09-05",
+    "time": "17:00",
+    "homeTeam": "FC Aarau Frauen",
+    "awayTeam": "FC Luzern",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340180"
+  },
+  {
     "id": "4314649",
     "matchNumber": "104544",
     "date": "2026-09-05",
@@ -2028,6 +2592,30 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315935"
   },
   {
+    "id": "4340179",
+    "matchNumber": "128000",
+    "date": "2026-09-05",
+    "time": null,
+    "homeTeam": "FC Rapperswil-Jona",
+    "awayTeam": "FC Zürich",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340179"
+  },
+  {
+    "id": "4340183",
+    "matchNumber": "128004",
+    "date": "2026-09-05",
+    "time": null,
+    "homeTeam": "GC Frauenfussball",
+    "awayTeam": "Servette FC Chênois Féminin",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340183"
+  },
+  {
     "id": "4314653",
     "matchNumber": "104548",
     "date": "2026-09-05",
@@ -2064,6 +2652,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315460"
   },
   {
+    "id": "4340181",
+    "matchNumber": "128002",
+    "date": "2026-09-06",
+    "time": "15:00",
+    "homeTeam": "BSC YB Frauen",
+    "awayTeam": "Yverdon Sport Women",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340181"
+  },
+  {
     "id": "4314647",
     "matchNumber": "104542",
     "date": "2026-09-06",
@@ -2086,6 +2686,66 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315941"
+  },
+  {
+    "id": "4340186",
+    "matchNumber": "128007",
+    "date": "2026-09-09",
+    "time": "18:00",
+    "homeTeam": "Servette FC Chênois Féminin",
+    "awayTeam": "Yverdon Sport Women",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340186"
+  },
+  {
+    "id": "4340188",
+    "matchNumber": "128009",
+    "date": "2026-09-09",
+    "time": "19:00",
+    "homeTeam": "FC Zürich",
+    "awayTeam": "BSC YB Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340188"
+  },
+  {
+    "id": "4340187",
+    "matchNumber": "128008",
+    "date": "2026-09-09",
+    "time": null,
+    "homeTeam": "FC Basel 1893",
+    "awayTeam": "GC Frauenfussball",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340187"
+  },
+  {
+    "id": "4340185",
+    "matchNumber": "128006",
+    "date": "2026-09-09",
+    "time": null,
+    "homeTeam": "FC Luzern",
+    "awayTeam": "FC Rapperswil-Jona",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340185"
+  },
+  {
+    "id": "4340184",
+    "matchNumber": "128005",
+    "date": "2026-09-09",
+    "time": null,
+    "homeTeam": "FC St.Gallen 1879",
+    "awayTeam": "FC Aarau Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340184"
   },
   {
     "id": "4315469",
@@ -2280,6 +2940,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315945"
   },
   {
+    "id": "4340190",
+    "matchNumber": "128011",
+    "date": "2026-09-12",
+    "time": "18:00",
+    "homeTeam": "FC Rapperswil-Jona",
+    "awayTeam": "Servette FC Chênois Féminin",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340190"
+  },
+  {
     "id": "4315467",
     "matchNumber": "105350",
     "date": "2026-09-12",
@@ -2326,6 +2998,42 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315950"
+  },
+  {
+    "id": "4340193",
+    "matchNumber": "128014",
+    "date": "2026-09-12",
+    "time": null,
+    "homeTeam": "FC Zürich",
+    "awayTeam": "FC Basel 1893",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340193"
+  },
+  {
+    "id": "4340192",
+    "matchNumber": "128013",
+    "date": "2026-09-12",
+    "time": null,
+    "homeTeam": "GC Frauenfussball",
+    "awayTeam": "FC Luzern",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340192"
+  },
+  {
+    "id": "4340189",
+    "matchNumber": "128010",
+    "date": "2026-09-12",
+    "time": null,
+    "homeTeam": "Yverdon Sport Women",
+    "awayTeam": "FC Aarau Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340189"
   },
   {
     "id": "4314661",
@@ -2412,6 +3120,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315943"
   },
   {
+    "id": "4340191",
+    "matchNumber": "128012",
+    "date": "2026-09-13",
+    "time": "14:00",
+    "homeTeam": "BSC YB Frauen",
+    "awayTeam": "FC St.Gallen 1879",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340191"
+  },
+  {
     "id": "4315708",
     "matchNumber": "105591",
     "date": "2026-09-13",
@@ -2482,6 +3202,18 @@
     "competitionName": "Hoval Promotion League",
     "sectionName": null,
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4314656"
+  },
+  {
+    "id": "4340196",
+    "matchNumber": "128017",
+    "date": "2026-09-18",
+    "time": "19:00",
+    "homeTeam": "Servette FC Chênois Féminin",
+    "awayTeam": "FC Zürich",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340196"
   },
   {
     "id": "4314667",
@@ -2712,6 +3444,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315957"
   },
   {
+    "id": "4340197",
+    "matchNumber": "128018",
+    "date": "2026-09-19",
+    "time": "17:00",
+    "homeTeam": "FC Aarau Frauen",
+    "awayTeam": "BSC YB Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340197"
+  },
+  {
     "id": "4314666",
     "matchNumber": "104561",
     "date": "2026-09-19",
@@ -2806,6 +3550,42 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315958"
+  },
+  {
+    "id": "4340198",
+    "matchNumber": "128019",
+    "date": "2026-09-19",
+    "time": null,
+    "homeTeam": "FC Basel 1893",
+    "awayTeam": "FC Rapperswil-Jona",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340198"
+  },
+  {
+    "id": "4340195",
+    "matchNumber": "128016",
+    "date": "2026-09-19",
+    "time": null,
+    "homeTeam": "FC Luzern",
+    "awayTeam": "Yverdon Sport Women",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340195"
+  },
+  {
+    "id": "4340194",
+    "matchNumber": "128015",
+    "date": "2026-09-19",
+    "time": null,
+    "homeTeam": "FC St.Gallen 1879",
+    "awayTeam": "GC Frauenfussball",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340194"
   },
   {
     "id": "4314665",
@@ -3276,6 +4056,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315481"
   },
   {
+    "id": "4340203",
+    "matchNumber": "128024",
+    "date": "2026-10-02",
+    "time": "19:00",
+    "homeTeam": "GC Frauenfussball",
+    "awayTeam": "FC Zürich",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340203"
+  },
+  {
     "id": "4315492",
     "matchNumber": "105375",
     "date": "2026-10-03",
@@ -3600,6 +4392,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315733"
   },
   {
+    "id": "4340201",
+    "matchNumber": "128022",
+    "date": "2026-10-03",
+    "time": "18:00",
+    "homeTeam": "FC Rapperswil-Jona",
+    "awayTeam": "FC Aarau Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340201"
+  },
+  {
     "id": "4314690",
     "matchNumber": "104585",
     "date": "2026-10-03",
@@ -3622,6 +4426,42 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315973"
+  },
+  {
+    "id": "4340202",
+    "matchNumber": "128023",
+    "date": "2026-10-03",
+    "time": null,
+    "homeTeam": "BSC YB Frauen",
+    "awayTeam": "FC Luzern",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340202"
+  },
+  {
+    "id": "4340199",
+    "matchNumber": "128020",
+    "date": "2026-10-03",
+    "time": null,
+    "homeTeam": "FC St.Gallen 1879",
+    "awayTeam": "Servette FC Chênois Féminin",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340199"
+  },
+  {
+    "id": "4340200",
+    "matchNumber": "128021",
+    "date": "2026-10-03",
+    "time": null,
+    "homeTeam": "Yverdon Sport Women",
+    "awayTeam": "FC Basel 1893",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340200"
   },
   {
     "id": "4314689",
@@ -4236,6 +5076,42 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&s=2027&cp=5222&cr=0&tg=4316162"
   },
   {
+    "id": "4340207",
+    "matchNumber": "128028",
+    "date": "2026-10-17",
+    "time": "17:00",
+    "homeTeam": "BSC YB Frauen",
+    "awayTeam": "GC Frauenfussball",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340207"
+  },
+  {
+    "id": "4340206",
+    "matchNumber": "128027",
+    "date": "2026-10-17",
+    "time": "17:00",
+    "homeTeam": "FC Aarau Frauen",
+    "awayTeam": "FC Basel 1893",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340206"
+  },
+  {
+    "id": "4340205",
+    "matchNumber": "128026",
+    "date": "2026-10-17",
+    "time": "17:00",
+    "homeTeam": "Servette FC Chênois Féminin",
+    "awayTeam": "FC Luzern",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340205"
+  },
+  {
     "id": "4316152",
     "matchNumber": null,
     "date": "2026-10-17",
@@ -4282,6 +5158,30 @@
     "competitionName": "Hoval Promotion League",
     "sectionName": null,
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4314702"
+  },
+  {
+    "id": "4340208",
+    "matchNumber": "128029",
+    "date": "2026-10-17",
+    "time": null,
+    "homeTeam": "FC Zürich",
+    "awayTeam": "FC St.Gallen 1879",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340208"
+  },
+  {
+    "id": "4340204",
+    "matchNumber": "128025",
+    "date": "2026-10-17",
+    "time": null,
+    "homeTeam": "Yverdon Sport Women",
+    "awayTeam": "FC Rapperswil-Jona",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340204"
   },
   {
     "id": "4316149",
@@ -4812,6 +5712,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4314715"
   },
   {
+    "id": "4340212",
+    "matchNumber": "128033",
+    "date": "2026-10-30",
+    "time": "19:00",
+    "homeTeam": "FC Basel 1893",
+    "awayTeam": "FC Zürich",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340212"
+  },
+  {
     "id": "4315514",
     "matchNumber": "105397",
     "date": "2026-10-31",
@@ -5028,6 +5940,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315513"
   },
   {
+    "id": "4340211",
+    "matchNumber": "128032",
+    "date": "2026-10-31",
+    "time": "17:00",
+    "homeTeam": "Servette FC Chênois Féminin",
+    "awayTeam": "FC Rapperswil-Jona",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340211"
+  },
+  {
     "id": "4314719",
     "matchNumber": "104614",
     "date": "2026-10-31",
@@ -5124,6 +6048,42 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315995"
   },
   {
+    "id": "4340210",
+    "matchNumber": "128031",
+    "date": "2026-10-31",
+    "time": null,
+    "homeTeam": "FC Luzern",
+    "awayTeam": "FC Aarau Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340210"
+  },
+  {
+    "id": "4340209",
+    "matchNumber": "128030",
+    "date": "2026-10-31",
+    "time": null,
+    "homeTeam": "FC St.Gallen 1879",
+    "awayTeam": "BSC YB Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340209"
+  },
+  {
+    "id": "4340213",
+    "matchNumber": "128034",
+    "date": "2026-10-31",
+    "time": null,
+    "homeTeam": "GC Frauenfussball",
+    "awayTeam": "Yverdon Sport Women",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340213"
+  },
+  {
     "id": "4314724",
     "matchNumber": "104619",
     "date": "2026-10-31",
@@ -5206,6 +6166,18 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 2",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315754"
+  },
+  {
+    "id": "4340216",
+    "matchNumber": "128037",
+    "date": "2026-11-06",
+    "time": "19:00",
+    "homeTeam": "BSC YB Frauen",
+    "awayTeam": "FC Basel 1893",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340216"
   },
   {
     "id": "4315522",
@@ -5436,6 +6408,18 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315521"
   },
   {
+    "id": "4340215",
+    "matchNumber": "128036",
+    "date": "2026-11-07",
+    "time": "17:00",
+    "homeTeam": "FC Aarau Frauen",
+    "awayTeam": "Yverdon Sport Women",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340215"
+  },
+  {
     "id": "4314734",
     "matchNumber": "104629",
     "date": "2026-11-07",
@@ -5482,6 +6466,42 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4316003"
+  },
+  {
+    "id": "4340214",
+    "matchNumber": "128035",
+    "date": "2026-11-07",
+    "time": null,
+    "homeTeam": "FC Rapperswil-Jona",
+    "awayTeam": "FC Luzern",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340214"
+  },
+  {
+    "id": "4340218",
+    "matchNumber": "128039",
+    "date": "2026-11-07",
+    "time": null,
+    "homeTeam": "FC Zürich",
+    "awayTeam": "Servette FC Chênois Féminin",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340218"
+  },
+  {
+    "id": "4340217",
+    "matchNumber": "128038",
+    "date": "2026-11-07",
+    "time": null,
+    "homeTeam": "GC Frauenfussball",
+    "awayTeam": "FC St.Gallen 1879",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340217"
   },
   {
     "id": "4314730",
@@ -5602,6 +6622,18 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 1",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315526"
+  },
+  {
+    "id": "4340222",
+    "matchNumber": "128043",
+    "date": "2026-11-13",
+    "time": "19:00",
+    "homeTeam": "FC Rapperswil-Jona",
+    "awayTeam": "GC Frauenfussball",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340222"
   },
   {
     "id": "4315529",
@@ -5916,6 +6948,54 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4316010"
   },
   {
+    "id": "4340223",
+    "matchNumber": "128044",
+    "date": "2026-11-14",
+    "time": null,
+    "homeTeam": "FC Basel 1893",
+    "awayTeam": "FC Aarau Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340223"
+  },
+  {
+    "id": "4340220",
+    "matchNumber": "128041",
+    "date": "2026-11-14",
+    "time": null,
+    "homeTeam": "FC Luzern",
+    "awayTeam": "Servette FC Chênois Féminin",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340220"
+  },
+  {
+    "id": "4340219",
+    "matchNumber": "128040",
+    "date": "2026-11-14",
+    "time": null,
+    "homeTeam": "FC St.Gallen 1879",
+    "awayTeam": "FC Zürich",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340219"
+  },
+  {
+    "id": "4340221",
+    "matchNumber": "128042",
+    "date": "2026-11-14",
+    "time": null,
+    "homeTeam": "Yverdon Sport Women",
+    "awayTeam": "BSC YB Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340221"
+  },
+  {
     "id": "4314740",
     "matchNumber": "104635",
     "date": "2026-11-14",
@@ -5998,6 +7078,18 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 2",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315768"
+  },
+  {
+    "id": "4340227",
+    "matchNumber": "128048",
+    "date": "2026-11-20",
+    "time": "19:00",
+    "homeTeam": "GC Frauenfussball",
+    "awayTeam": "FC Basel 1893",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340227"
   },
   {
     "id": "4315537",
@@ -6204,6 +7296,30 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315536"
   },
   {
+    "id": "4340226",
+    "matchNumber": "128047",
+    "date": "2026-11-21",
+    "time": "17:00",
+    "homeTeam": "FC Aarau Frauen",
+    "awayTeam": "FC Rapperswil-Jona",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340226"
+  },
+  {
+    "id": "4340225",
+    "matchNumber": "128046",
+    "date": "2026-11-21",
+    "time": "17:00",
+    "homeTeam": "Servette FC Chênois Féminin",
+    "awayTeam": "FC St.Gallen 1879",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340225"
+  },
+  {
     "id": "4314751",
     "matchNumber": "104646",
     "date": "2026-11-21",
@@ -6286,6 +7402,30 @@
     "competitionName": "1. Liga Classic",
     "sectionName": "Gruppe 3",
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4316018"
+  },
+  {
+    "id": "4340224",
+    "matchNumber": "128045",
+    "date": "2026-11-21",
+    "time": null,
+    "homeTeam": "FC Luzern",
+    "awayTeam": "BSC YB Frauen",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340224"
+  },
+  {
+    "id": "4340228",
+    "matchNumber": "128049",
+    "date": "2026-11-21",
+    "time": null,
+    "homeTeam": "FC Zürich",
+    "awayTeam": "Yverdon Sport Women",
+    "scheduleKey": "axa-womens-super-league",
+    "competitionName": "AXA Women's Super League",
+    "sectionName": null,
+    "detailsUrl": "https://matchcenter.football.ch/default.aspx?oid=1&lng=1&ln=&v=0&tg=4340228"
   },
   {
     "id": "4314747",
