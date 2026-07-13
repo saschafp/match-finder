@@ -1,5 +1,7 @@
 # Match Finder
 
+[![Website](https://img.shields.io/badge/website-match--finder-blue)](https://saschafp.github.io/match-finder/)
+
 Match Finder fetches fixtures from the Swiss football Matchcenter and publishes them as a static JSON file for a lightweight GitHub Pages frontend.
 
 ## Features
