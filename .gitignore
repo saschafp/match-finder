@@ -26,5 +26,5 @@ dist/
 .idea/
 
 # Generated project data
-data/raw/
-data/games.json
+data/*
+!data/.gitkeep

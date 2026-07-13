@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import json
+from datetime import datetime
 from pathlib import Path
 
 import matchcenter as mc
 
 OUTPUT_PATH = Path(__file__).resolve().parents[1] / "data" / "games.json"
+METADATA_PATH = OUTPUT_PATH.with_name("metadata.json")
 
 
 competitions = [
@@ -36,6 +39,28 @@ competitions = [
         ),
     ),
 ]
+
+
+def write_metadata(game_count: int) -> None:
+    metadata = {
+        "generatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "gameCount": game_count,
+    }
+
+    METADATA_PATH.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    METADATA_PATH.write_text(
+        json.dumps(
+            metadata,
+            indent=2,
+            ensure_ascii=False,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
 
 
 def main() -> None:
@@ -76,7 +101,10 @@ def main() -> None:
         OUTPUT_PATH,
     )
 
+    write_metadata(len(exported_games))
+
     print(f"Wrote {len(exported_games)} games to {OUTPUT_PATH}")
+    print(f"Wrote metadata to {METADATA_PATH}")
 
 
 if __name__ == "__main__":
