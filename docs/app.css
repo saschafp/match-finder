@@ -4,7 +4,6 @@
     Inter, Avenir, "Segoe UI", Helvetica, Arial, ui-sans-serif, system-ui,
     sans-serif;
   color: #24292f;
-  background: #16271a;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   --red: rgb(217 36 36);
@@ -20,6 +19,12 @@
 html {
   min-width: 320px;
   min-height: 100%;
+  background:
+    linear-gradient(180deg, rgb(8 19 11 / 0.72) 0%, rgb(10 27 15 / 0.45) 42%, rgb(7 17 10 / 0.68) 100%),
+    linear-gradient(90deg, rgb(4 15 8 / 0.16), transparent 42%, rgb(4 15 8 / 0.16)),
+    url("./assets/background.webp") center bottom / cover no-repeat,
+    linear-gradient(#1c2f16, #1c2f16);
+  background-attachment: fixed;
   scroll-behavior: smooth;
 }
 
@@ -28,23 +33,7 @@ body {
   min-height: 100vh;
   margin: 0;
   overflow-x: hidden;
-  background-color: #18331e;
-  background-image: url("./assets/background.webp");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-body::before {
-  position: fixed;
-  z-index: 0;
-  inset: 0;
-  background:
-    linear-gradient(180deg, rgb(8 19 11 / 0.72) 0%, rgb(10 27 15 / 0.45) 42%, rgb(7 17 10 / 0.68) 100%),
-    linear-gradient(90deg, rgb(4 15 8 / 0.16), transparent 42%, rgb(4 15 8 / 0.16));
-  content: "";
-  pointer-events: none;
+  background: transparent;
 }
 
 button,
@@ -76,6 +65,11 @@ input {
   max-width: 850px;
   margin: 0 auto;
   padding: clamp(5rem, 13vw, 9rem) 1rem clamp(2.75rem, 6vw, 4.5rem);
+  padding:
+    calc(clamp(5rem, 13vw, 9rem) + env(safe-area-inset-top))
+    calc(1rem + env(safe-area-inset-right))
+    clamp(2.75rem, 6vw, 4.5rem)
+    calc(1rem + env(safe-area-inset-left));
   justify-items: center;
   text-align: center;
 }
@@ -286,6 +280,14 @@ input {
     background-color 180ms ease,
     box-shadow 180ms ease,
     opacity 180ms ease;
+}
+
+/* WebKit 301648: padded temporal inputs overflow at width: 100% on iOS 26. */
+input[type="date"],
+input[type="time"] {
+  width: -webkit-fill-available;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .competition-picker {
@@ -911,7 +913,7 @@ button:disabled {
 }
 
 @media (max-width: 760px) {
-  body {
+  html {
     background-attachment: scroll;
   }
 
@@ -928,6 +930,11 @@ button:disabled {
 
   .page-header {
     padding: 4.5rem 0.5rem 2.75rem;
+    padding:
+      calc(4.5rem + env(safe-area-inset-top))
+      calc(0.5rem + env(safe-area-inset-right))
+      2.75rem
+      calc(0.5rem + env(safe-area-inset-left));
   }
 
   h1 {
@@ -1036,7 +1043,6 @@ button:disabled {
 }
 
 @media (forced-colors: active) {
-  body::before,
   .glass-panel::before {
     display: none;
   }
