@@ -14,9 +14,11 @@ def make_game(
     game_id: str,
     game_date: date,
     kickoff: time | None,
-    home_team: str = "Home",
-    away_team: str = "Away",
-    schedule_key: str = "classic-group-1",
+    home_team: str = "Home Team",
+    away_team: str = "Away Team",
+    schedule_key: str = "league-group-1",
+    competition_name: str = "League",
+    section_name: str | None = "Group 1",
 ) -> mc.Game:
     return mc.Game(
         id=game_id,
@@ -26,11 +28,9 @@ def make_game(
         home_team=home_team,
         away_team=away_team,
         schedule_key=schedule_key,
-        competition_name="1. Liga Classic",
-        section_name="Gruppe 1",
-        details_url=(
-            f"https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&tg={game_id}"
-        ),
+        competition_name=competition_name,
+        section_name=section_name,
+        details_url=(f"https://example.test/default.aspx?tg={game_id}"),
     )
 
 
@@ -86,7 +86,11 @@ def test_sorts_games_by_date_and_time() -> None:
 
     result = mc.sort_games(games)
 
-    assert [game.id for game in result] == ["1", "2", "3"]
+    assert [game.id for game in result] == [
+        "1",
+        "2",
+        "3",
+    ]
 
 
 def test_writes_games_json(tmp_path: Path) -> None:
@@ -97,12 +101,15 @@ def test_writes_games_json(tmp_path: Path) -> None:
             game_id="1",
             game_date=date(2026, 8, 1),
             kickoff=time(16, 0),
-            home_team="FC Zürich U-21",
-            away_team="SC Cham",
+            home_team="Home Club",
+            away_team="Away Club",
         )
     ]
 
-    exported = mc.write_games_json(games, output_path)
+    exported = mc.write_games_json(
+        games,
+        output_path,
+    )
 
     assert exported == games
     assert output_path.exists()
@@ -115,13 +122,11 @@ def test_writes_games_json(tmp_path: Path) -> None:
             "matchNumber": None,
             "date": "2026-08-01",
             "time": "16:00",
-            "homeTeam": "FC Zürich U-21",
-            "awayTeam": "SC Cham",
-            "scheduleKey": "classic-group-1",
-            "competitionName": "1. Liga Classic",
-            "sectionName": "Gruppe 1",
-            "detailsUrl": (
-                "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&tg=1"
-            ),
+            "homeTeam": "Home Club",
+            "awayTeam": "Away Club",
+            "scheduleKey": "league-group-1",
+            "competitionName": "League",
+            "sectionName": "Group 1",
+            "detailsUrl": ("https://example.test/default.aspx?tg=1"),
         }
     ]

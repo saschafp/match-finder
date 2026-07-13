@@ -7,67 +7,24 @@ import pytest
 
 import matchcenter as mc
 
-FIXTURES = Path(__file__).parent / "fixtures" / "schedules"
+FIXTURES = Path(__file__).parent / "fixtures"
 
 
-PROMOTION_LEAGUE = mc.Schedule(
-    key="promotion-league",
-    source_key="erste-liga",
-    competition_name="Hoval Promotion League",
-    section_name=None,
-    url=(
-        "https://matchcenter.el-pl.ch/default.aspx"
-        "?oid=3&lng=1&s=2027&ln=12005"
-        "&ls=25789&sg=70226&a=msp"
-    ),
-    kind="league",
-)
-
-CLASSIC_GROUP_1 = mc.Schedule(
-    key="classic-group-1",
-    source_key="erste-liga",
-    competition_name="1. Liga Classic",
+LEAGUE_SCHEDULE = mc.Schedule(
+    key="league-group-1",
+    source_key="association",
+    competition_name="League",
     section_name="Gruppe 1",
-    url=(
-        "https://matchcenter.el-pl.ch/default.aspx"
-        "?oid=3&lng=1&s=2027&ln=12010"
-        "&ls=25790&sg=70227&a=msp"
-    ),
+    url="https://example.test/league?a=msp",
     kind="league",
 )
 
-CLASSIC_GROUP_2 = mc.Schedule(
-    key="classic-group-2",
-    source_key="erste-liga",
-    competition_name="1. Liga Classic",
-    section_name="Gruppe 2",
-    url=(
-        "https://matchcenter.el-pl.ch/default.aspx"
-        "?oid=3&lng=1&s=2027&ln=12010"
-        "&ls=25790&sg=70228&a=msp"
-    ),
-    kind="league",
-)
-
-CLASSIC_GROUP_3 = mc.Schedule(
-    key="classic-group-3",
-    source_key="erste-liga",
-    competition_name="1. Liga Classic",
-    section_name="Gruppe 3",
-    url=(
-        "https://matchcenter.el-pl.ch/default.aspx"
-        "?oid=3&lng=1&s=2027&ln=12010"
-        "&ls=25790&sg=70229&a=msp"
-    ),
-    kind="league",
-)
-
-CURRENT_CUP = mc.Schedule(
-    key="classic-cup-qualification",
-    source_key="erste-liga",
-    competition_name="Cup-Qualifikation 1. Liga Classic",
+CUP_SCHEDULE = mc.Schedule(
+    key="cup",
+    source_key="association",
+    competition_name="Cup",
     section_name=None,
-    url=("https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&s=2027&cp=5222"),
+    url="https://example.test/cup",
     kind="cup",
 )
 
@@ -79,14 +36,11 @@ def read_fixture(name: str) -> str:
 @pytest.mark.parametrize(
     ("fixture_name", "schedule", "expected_count"),
     [
-        ("promotion-league.html", PROMOTION_LEAGUE, 306),
-        ("classic-group-1.html", CLASSIC_GROUP_1, 240),
-        ("classic-group-2.html", CLASSIC_GROUP_2, 240),
-        ("classic-group-3.html", CLASSIC_GROUP_3, 240),
-        ("classic-cup-qualification.html", CURRENT_CUP, 20),
+        ("league-schedule.html", LEAGUE_SCHEDULE, 2),
+        ("cup.html", CUP_SCHEDULE, 3),
     ],
 )
-def test_parses_full_schedule(
+def test_parses_schedule(
     fixture_name: str,
     schedule: mc.Schedule,
     expected_count: int,
@@ -107,78 +61,92 @@ def test_parses_full_schedule(
     assert all(game.details_url.startswith("https://") for game in games)
 
 
-def test_parses_known_promotion_league_game() -> None:
+def test_parses_known_league_game() -> None:
     games = mc.parse_schedule(
-        read_fixture("promotion-league.html"),
-        schedule=PROMOTION_LEAGUE,
+        read_fixture("league-schedule.html"),
+        schedule=LEAGUE_SCHEDULE,
     )
 
-    game = next(game for game in games if game.id == "4314601")
+    game = next(game for game in games if game.id == "1001")
 
-    assert game.match_number == "104496"
+    assert game.match_number == "50001"
     assert game.date == date(2026, 8, 1)
     assert game.time == time(16, 0)
-    assert game.home_team == "SC Cham"
-    assert game.away_team == "FC Breitenrain"
-    assert game.schedule_key == "promotion-league"
-    assert game.competition_name == "Hoval Promotion League"
-    assert game.section_name is None
-    assert "tg=4314601" in game.details_url
+    assert game.home_team == "Home Team"
+    assert game.away_team == "Away Team"
+    assert game.schedule_key == "league-group-1"
+    assert game.competition_name == "League"
+    assert game.section_name == "Gruppe 1"
+    assert "tg=1001" in game.details_url
 
 
 def test_allows_missing_league_kickoff_time() -> None:
     games = mc.parse_schedule(
-        read_fixture("promotion-league.html"),
-        schedule=PROMOTION_LEAGUE,
+        read_fixture("league-schedule.html"),
+        schedule=LEAGUE_SCHEDULE,
     )
 
-    game = next(game for game in games if game.id == "4314602")
+    game = next(game for game in games if game.id == "1002")
 
-    assert game.match_number == "104497"
+    assert game.match_number == "50002"
     assert game.date == date(2026, 8, 1)
     assert game.time is None
-    assert game.home_team == "FC Paradiso"
-    assert game.away_team == "FC Schaffhausen"
+    assert game.home_team == "Second Home Team"
+    assert game.away_team == "Second Away Team"
 
 
 def test_parses_known_cup_game_and_preserves_suffixes() -> None:
     games = mc.parse_schedule(
-        read_fixture("classic-cup-qualification.html"),
-        schedule=CURRENT_CUP,
+        read_fixture("cup.html"),
+        schedule=CUP_SCHEDULE,
     )
 
-    game = next(game for game in games if game.id == "4316161")
+    game = next(game for game in games if game.id == "2001")
 
     assert game.match_number is None
     assert game.date == date(2026, 10, 17)
     assert game.time == time(16, 0)
-    assert game.home_team == "FC Freienbach (1.)"
-    assert game.away_team == "FC Wettswil-Bonstetten (1.)"
-    assert game.schedule_key == "classic-cup-qualification"
-    assert game.competition_name == ("Cup-Qualifikation 1. Liga Classic")
+    assert game.home_team == "Home Club (1.)"
+    assert game.away_team == "Away Club (1.)"
+    assert game.schedule_key == "cup"
+    assert game.competition_name == "Cup"
     assert game.section_name is None
-    assert "tg=4316161" in game.details_url
+    assert "tg=2001" in game.details_url
 
 
 def test_allows_missing_cup_kickoff_time() -> None:
     games = mc.parse_schedule(
-        read_fixture("classic-cup-qualification.html"),
-        schedule=CURRENT_CUP,
+        read_fixture("cup.html"),
+        schedule=CUP_SCHEDULE,
     )
 
-    game = next(game for game in games if game.id == "4316147")
+    game = next(game for game in games if game.id == "2002")
 
     assert game.date == date(2026, 10, 17)
     assert game.time is None
-    assert game.home_team == "FC Solothurn (1.)"
-    assert game.away_team == "FC Echallens Région (1.)"
+    assert game.home_team == "Second Home Club (1.)"
+    assert game.away_team == "Second Away Club (1.)"
+
+
+def test_updates_date_after_new_heading() -> None:
+    games = mc.parse_schedule(
+        read_fixture("cup.html"),
+        schedule=CUP_SCHEDULE,
+    )
+
+    game = next(game for game in games if game.id == "2003")
+
+    assert game.date == date(2026, 10, 18)
+    assert game.time == time(14, 30)
+    assert game.home_team == "Sunday Home Club (1.)"
+    assert game.away_team == "Sunday Away Club (1.)"
 
 
 @pytest.mark.parametrize(
     "schedule",
     [
-        PROMOTION_LEAGUE,
-        CURRENT_CUP,
+        LEAGUE_SCHEDULE,
+        CUP_SCHEDULE,
     ],
 )
 def test_rejects_html_without_schedule_items(
@@ -187,9 +155,9 @@ def test_rejects_html_without_schedule_items(
     html = """
     <!doctype html>
     <html lang="de">
-        <body>
-            <main>No fixtures found.</main>
-        </body>
+      <body>
+        <main>No fixtures found.</main>
+      </body>
     </html>
     """
 
