@@ -22,8 +22,8 @@ html {
   background:
     linear-gradient(180deg, rgb(8 19 11 / 0.72) 0%, rgb(10 27 15 / 0.45) 42%, rgb(7 17 10 / 0.68) 100%),
     linear-gradient(90deg, rgb(4 15 8 / 0.16), transparent 42%, rgb(4 15 8 / 0.16)),
-    url("./assets/background.webp") center bottom / cover no-repeat,
-    linear-gradient(#1c2f16, #1c2f16);
+    url("./assets/background.webp") center bottom / cover no-repeat;
+  background-color: rgb(16 26 16);
   background-attachment: fixed;
   scroll-behavior: smooth;
 }
