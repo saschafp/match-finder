@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-CH">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Find football matches by date, kickoff time, and competition."
+    >
+    <meta name="theme-color" content="#16271a">
+    <title>Match Finder</title>
+    <link rel="stylesheet" href="./app.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="page-header">
+        <h1>Find your next match.</h1>
+        <p class="intro">
+          Choose a date and add any optional filters. We’ll show every matching
+          fixture just below.
+        </p>
+      </header>
+
+      <section class="search-panel glass-panel" aria-labelledby="search-heading">
+        <div class="panel-heading">
+          <div>
+            <p class="panel-kicker">Match search</p>
+            <h2 id="search-heading">When do you want to watch?</h2>
+          </div>
+        </div>
+
+        <form id="search-form" aria-busy="true">
+          <div class="form-grid">
+            <label class="field">
+              <span class="field-label">Date</span>
+              <input
+                id="date-input"
+                name="date"
+                type="date"
+                lang="de-CH"
+                required
+              >
+            </label>
+
+            <label class="field" id="time-field">
+              <span class="field-label">Kickoff time</span>
+              <input
+                id="time-input"
+                name="time"
+                type="time"
+                lang="de-CH"
+              >
+            </label>
+
+            <div class="field field-competition">
+              <span id="competition-label" class="field-label">Competition</span>
+              <div id="competition-picker" class="competition-picker">
+                <button
+                  id="competition-input"
+                  class="competition-trigger"
+                  type="button"
+                  aria-labelledby="competition-label competition-summary"
+                  aria-controls="competition-options"
+                  aria-expanded="false"
+                  disabled
+                >
+                  <span id="competition-summary">All competitions</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m7 9.5 5 5 5-5"></path>
+                  </svg>
+                </button>
+                <div
+                  id="competition-options"
+                  class="competition-options"
+                  role="group"
+                  aria-labelledby="competition-label"
+                  hidden
+                >
+                  <div class="competition-options-inner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-footer">
+            <label class="checkbox-row">
+              <input
+                id="whole-day-input"
+                class="toggle-input"
+                name="wholeDay"
+                type="checkbox"
+              >
+              <span class="toggle-switch" aria-hidden="true"></span>
+              <span class="toggle-copy">
+                <strong>Show the full day</strong>
+                <small>Ignore kickoff time</small>
+              </span>
+            </label>
+
+            <div class="actions">
+              <button type="submit" class="button-primary" disabled>
+                <span>Find matches</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"></path>
+                </svg>
+              </button>
+              <button id="reset-button" type="button" class="button-secondary">
+                Reset
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section
+        class="results-section glass-panel"
+        aria-labelledby="results-heading"
+        tabindex="-1"
+        hidden
+      >
+        <div class="results-heading">
+          <div>
+            <p class="panel-kicker">Fixtures</p>
+            <h2 id="results-heading">Matches</h2>
+          </div>
+          <div class="results-summary">
+            <p id="result-count" class="result-count" aria-live="polite"></p>
+            <p id="update-badge" class="update-badge" hidden>
+              <span>Last updated</span>
+              <time id="update-time"></time>
+            </p>
+          </div>
+        </div>
+
+        <div
+          id="status-message"
+          class="status-message"
+          role="status"
+        >
+          Select a date to begin.
+        </div>
+
+        <div id="results" class="results-list"></div>
+      </section>
+    </main>
+  </body>
+</html>
