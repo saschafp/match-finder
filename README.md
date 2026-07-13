@@ -6,7 +6,7 @@ Match Finder fetches fixtures from the Swiss football Matchcenter and publishes 
 
 - Fetch fixtures from multiple competitions
 - Parse league and cup competitions
-- Export a single `games.json`
+- Export game data and update metadata
 - Static frontend with no backend
 - Comprehensive test suite
 
@@ -23,14 +23,14 @@ Match Finder fetches fixtures from the Swiss football Matchcenter and publishes 
 
 ## Installation
 
-Create a virtual environment and install the development dependencies:
+Create a virtual environment and install the dependencies:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 
-pip install -e ".[dev]"
-playwright install chromium
+python -m pip install -e .
+python -m playwright install chromium
 ```
 
 ## Fetch Fixtures
@@ -41,17 +41,31 @@ Generate the latest fixture data:
 python scripts/fetch_games.py
 ```
 
-This writes:
+This creates:
 
 ```text
-data/games.json
+data/
+├── games.json
+└── metadata.json
 ```
 
-To update the frontend:
+## Publish & Deploy
+
+Copy the generated data to the website:
 
 ```bash
-mkdir -p docs/data
-cp data/games.json docs/data/games.json
+./scripts/publish_games.sh
+```
+
+The complete manual workflow is:
+
+```bash
+python scripts/fetch_games.py
+./scripts/publish_games.sh
+
+git add docs/data/games.json docs/data/metadata.json
+git commit -m "Update fixture data"
+git push
 ```
 
 ## Run the Frontend
