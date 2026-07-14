@@ -29,15 +29,7 @@ def deduplicate_games(games: Iterable[Game]) -> list[Game]:
 def sort_games(games: Iterable[Game]) -> list[Game]:
     return sorted(
         games,
-        key=lambda game: (
-            game.date,
-            game.time is None,
-            game.time,
-            game.competition_name.casefold(),
-            game.section_name or "",
-            game.home_team.casefold(),
-            game.away_team.casefold(),
-        ),
+        key=lambda game: int(game.id),
     )
 
 
