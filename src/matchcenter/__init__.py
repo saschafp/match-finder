@@ -1,4 +1,7 @@
-from matchcenter.client import MatchcenterClient
+from matchcenter.clients import (
+    MatchcenterClient,
+    PlaywrightClient,
+)
 from matchcenter.discovery import discover_schedules
 from matchcenter.exceptions import (
     MatchcenterDiscoveryError,
@@ -17,10 +20,9 @@ from matchcenter.models import (
     CompetitionDefinition,
     CompetitionKind,
     Game,
-    MatchcenterSource,
     Schedule,
 )
-from matchcenter.parser import parse_schedule
+from matchcenter.parsers import parse_schedule
 
 __all__ = [
     "CompetitionDefinition",
@@ -32,7 +34,7 @@ __all__ = [
     "MatchcenterExportError",
     "MatchcenterFetchError",
     "MatchcenterParserError",
-    "MatchcenterSource",
+    "PlaywrightClient",
     "Schedule",
     "deduplicate_games",
     "discover_schedules",

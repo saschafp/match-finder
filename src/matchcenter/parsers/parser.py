@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from matchcenter.cup_parser import parse_cup_schedule
-from matchcenter.league_parser import parse_league_schedule
 from matchcenter.models import Game, Schedule
+from matchcenter.parsers.cup import parse_cup_schedule
+from matchcenter.parsers.league import parse_league_schedule
 
 
 def parse_schedule(

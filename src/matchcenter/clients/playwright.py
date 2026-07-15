@@ -7,11 +7,12 @@ from playwright.sync_api import (
     sync_playwright,
 )
 
+from matchcenter.clients.base import MatchcenterClient
 from matchcenter.exceptions import MatchcenterFetchError
 from matchcenter.models import Schedule
 
 
-class MatchcenterClient:
+class PlaywrightClient(MatchcenterClient):
     def __init__(
         self,
         timeout: float = 30.0,
@@ -25,7 +26,7 @@ class MatchcenterClient:
         self._browser: Browser | None = None
         self._context: BrowserContext | None = None
 
-    def __enter__(self) -> MatchcenterClient:
+    def __enter__(self) -> PlaywrightClient:
         self._playwright = sync_playwright().start()
 
         self._browser = self._playwright.chromium.launch(
@@ -54,7 +55,7 @@ class MatchcenterClient:
         wait_for: str | None = None,
     ) -> str:
         if self._context is None:
-            raise RuntimeError("MatchcenterClient must be used as a context manager")
+            raise RuntimeError("PlaywrightClient must be used as a context manager")
 
         page = self._context.new_page()
 
