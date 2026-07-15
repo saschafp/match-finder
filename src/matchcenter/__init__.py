@@ -1,7 +1,4 @@
-from matchcenter.clients import (
-    MatchcenterClient,
-    PlaywrightClient,
-)
+from matchcenter.clients import MatchcenterClient, PlaywrightClient, SafariClient
 from matchcenter.discovery import discover_schedules
 from matchcenter.exceptions import (
     MatchcenterDiscoveryError,
@@ -35,6 +32,7 @@ __all__ = [
     "MatchcenterFetchError",
     "MatchcenterParserError",
     "PlaywrightClient",
+    "SafariClient",
     "Schedule",
     "deduplicate_games",
     "discover_schedules",

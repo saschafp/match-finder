@@ -84,7 +84,7 @@ def write_metadata(game_count: int) -> None:
 def main() -> None:
     games: list[mc.Game] = []
 
-    with mc.PlaywrightClient() as client:
+    with mc.SafariClient() as client:
         for definition in competitions:
             print(f"Discovering {definition.name}...")
 
