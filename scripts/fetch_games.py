@@ -39,6 +39,24 @@ competitions = [
         ),
     ),
     mc.CompetitionDefinition(
+        key="interregional",
+        source_key="amateur-liga",
+        name="2. Liga interregional",
+        kind="league",
+        landing_url=(
+            "https://matchcenter.al-la.ch/default.aspx?ln=13000&lng=1&oid=4&s=2027"
+        ),
+    ),
+    mc.CompetitionDefinition(
+        key="interregional-cup",
+        source_key="amateur-liga",
+        name="Cup-Qualifikation 2. Liga interregional",
+        kind="cup",
+        landing_url=(
+            "https://matchcenter.al-la.ch/default.aspx?oid=4&lng=1&s=2027&cp=5220"
+        ),
+    ),
+    mc.CompetitionDefinition(
         key="axa-womens-super-league",
         source_key="sfv",
         name="AXA Women's Super League",
