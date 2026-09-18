@@ -50,14 +50,15 @@ def parse_league_schedule(
                 f"Found match before date heading in {schedule.key}"
             )
 
-        games.append(
-            _parse_match(
-                item=item,
-                match_row=match_row,
-                current_date=current_date,
-                schedule=schedule,
-            )
+        game = _parse_match(
+            item=item,
+            match_row=match_row,
+            current_date=current_date,
+            schedule=schedule,
         )
+
+        if game is not None:
+            games.append(game)
 
     return games
 
@@ -85,7 +86,7 @@ def _parse_match(
     match_row: Tag,
     current_date: date,
     schedule: Schedule,
-) -> Game:
+) -> Game | None:
     home_team = _required_text(
         match_row,
         ".teamA",
@@ -101,9 +102,10 @@ def _parse_match(
     details_url = _details_url(
         item,
         schedule=schedule,
-        home_team=home_team,
-        away_team=away_team,
     )
+
+    if details_url is None:
+        return None
 
     return Game(
         id=_extract_match_id(details_url),
@@ -154,15 +156,11 @@ def _details_url(
     item: Tag,
     *,
     schedule: Schedule,
-    home_team: str,
-    away_team: str,
-) -> str:
+) -> str | None:
     href = item.get("href")
 
     if not isinstance(href, str) or not href.strip():
-        raise MatchcenterParserError(
-            f"Missing details link for {home_team} vs {away_team}"
-        )
+        return None
 
     return urljoin(schedule.url, href)
 
