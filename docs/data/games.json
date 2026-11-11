@@ -3254,8 +3254,8 @@
   {
     "id": "4314172",
     "matchNumber": "104089",
-    "date": "2026-11-14",
-    "time": "16:00",
+    "date": "2026-11-18",
+    "time": "20:00",
     "homeTeam": "FC Ruggell 1",
     "awayTeam": "FC Seuzach 1",
     "scheduleKey": "interregional-group-5",
@@ -12216,18 +12216,6 @@
     "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315770"
   },
   {
-    "id": "4315771",
-    "matchNumber": "105654",
-    "date": "2026-11-15",
-    "time": "14:00",
-    "homeTeam": "FC Thun Berner Oberland U-21",
-    "awayTeam": "Grasshopper Club Zürich U-21",
-    "scheduleKey": "classic-group-2",
-    "competitionName": "1. Liga Classic",
-    "sectionName": "Gruppe 2",
-    "detailsUrl": "https://matchcenter.el-pl.ch/default.aspx?oid=3&lng=1&ln=&v=0&tg=4315771"
-  },
-  {
     "id": "4315772",
     "matchNumber": "105655",
     "date": "2026-11-14",
@@ -12734,8 +12722,8 @@
   {
     "id": "4315814",
     "matchNumber": "105697",
-    "date": "2027-03-13",
-    "time": "15:00",
+    "date": "2027-03-17",
+    "time": "20:00",
     "homeTeam": "FC Black Stars",
     "awayTeam": "FC Münsingen",
     "scheduleKey": "classic-group-2",
@@ -18362,7 +18350,7 @@
   {
     "id": "4319020",
     "matchNumber": "108669",
-    "date": "2026-11-11",
+    "date": "2026-11-18",
     "time": "20:00",
     "homeTeam": "US Terre Sainte",
     "awayTeam": "FC Vernier 1",
@@ -25250,8 +25238,8 @@
   {
     "id": "4405435",
     "matchNumber": null,
-    "date": "2026-11-22",
-    "time": null,
+    "date": "2026-11-21",
+    "time": "16:00",
     "homeTeam": "FC Haute-Ajoie (2. Int.)",
     "awayTeam": "FC Allschwil (2. Int.)",
     "scheduleKey": "interregional-cup",
